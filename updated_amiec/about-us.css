@@ -1,0 +1,16 @@
+.about-h3{
+	padding: 20px;
+}
+.about-p{
+	padding: 10px;
+}
+.img-width{
+	padding-top: 50px;
+	width: 670px;
+	height: 400px;
+}
+.about-cards{
+	justify-content: center;
+	padding: 49px;
+	height: 200px;
+}

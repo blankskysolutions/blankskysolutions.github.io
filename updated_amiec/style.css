@@ -1,0 +1,190 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none !important;
+}
+.nav-link{
+	color: black;
+}
+.address{
+	background-color: #242A30;
+}
+.address a{
+	color: #8F9CA7;
+	font-size: 13px;
+}
+.address a:hover{
+	color: #8F9CA7;
+	text-decoration: none;
+}
+.address-ol{
+	display: flex;
+}
+
+
+
+
+
+
+
+/*Navbar*/
+.navbar{
+	background-color: #FFFFFF;
+}
+.navbar a:hover{
+	color: black !important;
+}
+.navbar-row{
+	align-items: center;
+	justify-content: center;
+		padding: 10px;
+}
+.techno{
+	width: 40%;	
+}
+.navbar a{
+	color: black;
+	font-weight: 500;
+	font-size: 17px;
+}
+.navbar-ul{
+	display: flex;
+}
+.navbar-ul li{
+	padding-left: 20px;
+
+}
+
+
+/*Search bar*/
+#search-bar{
+	background-color: #242A30;
+	display: flex;
+	height: 70px;
+	align-items: center;
+}
+#search-box{
+	width: 200px;
+	height: 200px !important;
+}
+#serach-btn{
+	padding: 12px;
+	background-color: #363B42;
+	border: none;
+	color: #FFFFFF;
+	height: 45px;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+
+
+
+/*News*/
+.news-cards{
+	justify-content: center;
+	padding: 40px;
+	display: flex;
+}
+.news-h2{
+	background-color: black;
+	border-radius: 3px;
+	color: white;
+	font-size: 22px;
+	padding: 15px;
+}
+.news-flex{
+	display: flex;
+}
+.news-p{
+	font-size: 15px;
+}
+.top-padding{
+	padding-top: 40px;
+}
+.news-card-text{
+	padding-left: 20px;
+}
+.news-text-p{
+	color: #8D9199;
+	font-size: 13px;	
+}
+
+
+/*Our Team*/
+.our-team{
+	background-color: #F5F5F5;
+	padding-bottom: 40px;
+}
+.our-team-card-p{
+	color: #8D9199;
+	font-size: 16px;	
+}
+.our-team-p{
+	color: #8D9199;
+	font-size: 20px;
+}
+.team-padding{
+	margin-left: 20px;
+}
+
+/*catalog*/
+.catalog{
+	background-color: #363B42;
+	padding: 20px;
+}
+.catalog-h4{
+	color: white;
+	padding-top: 20px;
+}
+.catalog-btn{
+	background-color: #363B42;
+	color: white;
+	border: 1px solid white;
+	border-radius: 30px;
+	height: 50px;
+	width: 180px;
+	font-size: 17px;
+}
+.catalog-btn-enternal{
+	padding-top: 30px;
+}
+
+/*Footer*/
+.footer-row{
+	justify-content: center;
+	padding-top: 100px;
+}
+hr{
+	background-color: #76797c;
+	width: 80%;
+	margin: auto;
+}
+.footer{
+	background-color: #242A30;
+	height: auto;
+}
+  
+  /*social links*/
+.social-links{
+	border-radius: 40px;
+}
+
+/*copyright*/
+
+.copyright{
+	padding: 5px;
+	background-color: #01172F;
+	color: #76797c;
+	font-size: 15px;
+}
+@media only screen and (max-width: 768px){
+			@keyframes rotation{
+				to{
+					transform: rotate(90deg);
+				}
+			}			
+}
